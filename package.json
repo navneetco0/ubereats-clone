@@ -1,0 +1,63 @@
+{
+  "name": "ubereats-clone",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.9",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.3",
+    "node": "^17.7.2"
+
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "engines": {
+
+    
+    "npm": "8.5.0",
+
+    "node": "16.x"
+
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anoxco0/ubereats-clone.git"
+  },
+  "keywords": [
+    "heroku"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anoxco0/ubereats-clone/issues"
+  },
+  "homepage": "https://github.com/anoxco0/ubereats-clone#readme"
+}
